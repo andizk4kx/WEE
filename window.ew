@@ -2,6 +2,7 @@
 
 include std/error.e
 include std/machine.e
+include std/win32/w32dllconst.ew
 include std/dll.e
 
 global function or_all(sequence s)
